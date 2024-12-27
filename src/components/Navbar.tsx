@@ -7,8 +7,8 @@ import { motion } from "motion/react"
 const Navbar = () => {
     return (
         <motion.header
-            initial={{opacity: 0}}
-            animate={{opacity: 1, transition: {duration: 1 , delay: 2.5}}}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1, transition: { duration: 1, delay: 2.5 } }}
             className='fixed z-50 top-0 left-0 w-full py-5 px-10 md:px-5 flex items-center justify-between text-white'
         >
             <div className='flex gap-40'>
