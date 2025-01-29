@@ -12,7 +12,7 @@ export default function Home() {
             variants={containerVariants}
             initial='hidden'
             animate='visible'
-            className="text-[35vw] w-full flex items-center justify-center"
+            className="text-[33.5rem] md:text-9xl w-full flex items-center justify-center"
           >
             <motion.span variants={itemVariants}>S</motion.span>
             <motion.span variants={itemVariants}>B</motion.span>
